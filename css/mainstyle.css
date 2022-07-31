@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #2b2b2b;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    transition: .5s;
+}
+
+a:hover{
+    font-weight: 700;
+    color: #D40B2D;
+}
+
+a:active{
+    color: #D40B2D;
+}
+/*------------common--------------*/
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 50px;
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+    padding-left: 25px;
+}
+
+.NavMenu a{
+    padding: 10px 25px;
+}
+
+
+.Download{
+    justify-content: flex-end;
+    border: 1px solid #D40B2D;
+    color: #D40B2D;
+    background-color: #fff;
+    box-shadow: 0 4px 30px rgba(212, 11, 45, 0.1);
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.Download:hover{
+    background-color: #D40B2D;
+    color: #fff;
+}
+/*------------Header--------------*/
+
+.Greeting{
+    width: 100%;
+    height: 860px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+.Say-Hello{
+    width: 500px;
+    height: auto;
+}
+
+.Hello{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fullName{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 30px;
+}
+
+.position{
+    background: rgb(212, 11, 45);
+    box-shadow: 0 4px 30px rgba(212, 11, 45, 0.1);
+    padding: 20px 40px;
+    width: 70%;
+    color: #fff;
+    margin: 0 auto;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.social-contact{
+    margin: 30px 0;
+}
+
+.social-contact a{
+    padding: 0 20px;
+} 
+
+.social-contact img{
+    width: 35px;
+    height: 35px;
+}
+/*------------Greeting--------------*/
+.Skill-Section{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.Skills-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.Skills-tab{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15em;
+}
+
+li img{
+    width: 50px;
+    height: 50px;
+}
+/*------------Skills Section--------------*/
+
+.Project-Section{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15em;
+}
+
+.Project-Section h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.Project-Card-Content{
+    display: flex;
+    gap: 25px;
+}
+
+.Project-Card{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.Project-Card img{
+    border-radius: 10px 10px 0 0;
+}
+
+.Project-Card h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Card-detail{
+    padding: 20px;
+}
+
+.Project-Card p{
+    margin-bottom: 20px;
+}
+
+.LinkTab img{
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+}
+/*------------Project Section--------------*/
+
+.About-Section{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7em;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 25px;
+}
+
+.About-Section img{
+    width: 450px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.About-Detail h3{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/*------------Contact Section--------------*/
+
+.Contact-Section{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.Contact-Section h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Contact-Section p{
+    margin-bottom: 30px;
+}
+
+.Contact-List a{
+    padding: 10px 20px;
+    border: 1px solid #2b2b2b;
+    border-radius: 5px;
+}
+
+.Contact-List a:hover{
+    border: 1px solid #D40B2D;
+    background-color: #D40B2D;
+    color: #fff;
+}
+
+.Nav-Footer{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    border-top: 1px solid #2b2b2b;
+}
