@@ -224,6 +224,42 @@ li img{
 }
 /*------------Project Section--------------*/
 
+.Exp-Section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Experience{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Exp-Card-Section{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 15em;
+}
+
+.Exp-Card-Title{
+    font-size: 60px;
+    font-weight: 700;
+    color: #D40B2D;
+}
+
+.Exp-Card span{
+    font-size: 25px;
+}
+
+.Exp-Card{
+    text-align: center;
+}
+
+/*------------Project Section--------------*/
+
 .About-Section{
     display: flex;
     width: 100%;
