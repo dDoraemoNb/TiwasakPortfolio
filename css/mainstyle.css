@@ -4,12 +4,14 @@
     font-family: 'Poppins', sans-serif;
     color: #2b2b2b;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 .container{
     width: 1200px;
     height: 100%;
     margin: 0 auto;
+    font-size: 14px;
 }
 
 a{
@@ -20,10 +22,20 @@ a{
 a:hover{
     font-weight: 700;
     color: #D40B2D;
+    transition: .3s;
 }
 
 a:active{
     color: #D40B2D;
+}
+
+svg{
+    fill: #2b2b2b;
+    transition: .3s;
+}
+
+svg:hover{
+    fill: #D40B2D;
 }
 /*------------common--------------*/
 
@@ -43,16 +55,17 @@ a:active{
     -webkit-backdrop-filter: blur(11.5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     margin-top: 50px;
+    padding: 25px;
 }
 
 #logo{
-    width: 70px;
-    height: 70px;
-    padding-left: 25px;
+    width: 50px;
+    height: 50px;
 }
 
 .NavMenu a{
     padding: 10px 25px;
+    font-weight: 700;
 }
 
 
@@ -172,6 +185,15 @@ li img{
 .Project-Card{
     background: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border: 1px solid rgba(209, 209, 209, 0.3);
+    transition: .3s;
+}
+
+.Project-Card:hover{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(11.5px);
     -webkit-backdrop-filter: blur(11.5px);
@@ -205,7 +227,7 @@ li img{
 .About-Section{
     display: flex;
     width: 100%;
-    gap: 30px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
     margin-bottom: 7em;
@@ -215,13 +237,17 @@ li img{
     backdrop-filter: blur(11.5px);
     -webkit-backdrop-filter: blur(11.5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 25px;
+    padding: 20px;
 }
 
 .About-Section img{
     width: 450px;
     height: 100%;
     border-radius: 20px;
+}
+
+.About-Detail{
+    padding: 40px;
 }
 
 .About-Detail h3{
@@ -250,6 +276,8 @@ li img{
     margin: 0 20px;
     border: 1px solid #2b2b2b;
     border-radius: 5px;
+    font-weight: 700;
+    transition: .3s;
 }
 
 .Contact-List a:hover{
